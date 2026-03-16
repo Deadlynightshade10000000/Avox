@@ -1,0 +1,13 @@
+[package]
+name = "avox"
+version = "0.1.0"
+authors = ["Deadlynightshade10000000"]
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10"
+blake2 = "0.9"
+curve25519-dalek = "3.2"
+arkworks = { version = "0.3", features = ["full"] }
+post-quantum-cryptography = "0.5"
+blockchain = "0.2.0"
